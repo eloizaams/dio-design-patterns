@@ -1,4 +1,4 @@
-package lab_java_padroes_projetos.gof;
+package lab_java_padroes_projetos.gof.singleton;
 
 
 /**
