@@ -1,5 +1,6 @@
 package lab_java_padroes_projetos.gof;
 
+import lab_java_padroes_projetos.gof.facade.Facade;
 import lab_java_padroes_projetos.gof.singleton.SingletonEager;
 import lab_java_padroes_projetos.gof.singleton.SingletonLazy;
 import lab_java_padroes_projetos.gof.singleton.SingletonLazyHolder;
@@ -48,5 +49,10 @@ public class Teste {
 		robo.mover();
 		robo.mover();
 		robo.mover();
+		
+		//Facade
+		
+		Facade facade = new Facade();
+		facade.migrarCliente("Eloiza", "52411-250");
 	}
 }
